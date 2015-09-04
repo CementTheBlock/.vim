@@ -49,4 +49,4 @@ colorscheme colorful256
 au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesusLoadBraces
+au Syntax * RainbowParenthesesLoadBraces
