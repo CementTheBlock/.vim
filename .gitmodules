@@ -4,6 +4,3 @@
 [submodule "bundle/rainbow_parenthesis"]
 	path = bundle/rainbow_parenthesis
 	url = https://github.com/kien/rainbow_parentheses.vim
-[submodule "bundle/paredit"]
-	path = bundle/paredit
-	url = https://github.com/vim-scripts/paredit.vim
