@@ -40,7 +40,7 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-let mapleader = ' '
+set maplocalleader = ' '
 
 map Y y$
 
