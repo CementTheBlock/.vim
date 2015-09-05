@@ -40,11 +40,10 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 
-set maplocalleader = ' '
-
 map Y y$
 
 nnoremap <C-L> :nohl<CR><C-L>
+nnoremap <LocalLeader> <Space>
 
 colorscheme colorful256
 
