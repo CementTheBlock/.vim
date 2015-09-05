@@ -37,13 +37,20 @@ set notimeout ttimeout ttimeoutlen=200
 set pastetoggle=<F11>
 
 set shiftwidth=4
+set shiftround
 set softtabstop=4
 set expandtab
 
 map Y y$
 
 nnoremap <C-L> :nohl<CR><C-L>
-nnoremap <LocalLeader> <Space>
+let mapleader = ","
+
+nmap <silent> <leader>ev :e $MYVIMRC<CR>
+nmap <silent> <leader>sv :so $MYVIMRC<CR>
+nmap <silent> ,/ :nohlsearch<CR>
+
+cmap w!! w !sudo tee % >/dev/null
 
 colorscheme colorful256
 
