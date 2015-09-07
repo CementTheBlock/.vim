@@ -34,7 +34,7 @@ set number
 
 set notimeout ttimeout ttimeoutlen=200
 
-set pastetoggle=<F11>
+set pastetoggle=<F2>
 
 set shiftwidth=4
 set shiftround
