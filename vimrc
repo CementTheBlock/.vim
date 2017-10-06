@@ -5,6 +5,8 @@ filetype indent plugin on
 
 syntax on
 
+runtime macros/matchit.vim
+
 set hidden
 
 set wildmenu
@@ -12,6 +14,7 @@ set wildmenu
 set showcmd
 
 set hlsearch
+set incsearch
 
 set ignorecase
 set smartcase
@@ -34,6 +37,16 @@ set number
 
 set notimeout ttimeout ttimeoutlen=200
 
+set history=1000
+
+set title
+
+set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+
+set listchars=tab:>-,trail:·,eol:$
+nmap <silent> <leader>sp :set nolist!<CR>
+
 set pastetoggle=<F2>
 
 set shiftwidth=4
@@ -44,11 +57,10 @@ set expandtab
 map Y y$
 
 nnoremap <C-L> :nohl<CR><C-L>
-let mapleader = ","
+map <SPACE> <leader>
 
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
-nmap <silent> ,/ :nohlsearch<CR>
 
 cmap w!! w !sudo tee % >/dev/null
 
