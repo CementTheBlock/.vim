@@ -6,6 +6,7 @@ filetype indent plugin on
 syntax on
 
 runtime macros/matchit.vim
+runtime macros/netrw.vim
 
 set hidden
 
