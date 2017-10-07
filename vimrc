@@ -1,9 +1,9 @@
 execute pathogen#infect()
 set nocompatible
 
-filetype indent plugin on
-
 syntax on
+
+filetype plugin indent on
 
 runtime macros/matchit.vim
 runtime macros/netrw.vim
@@ -54,8 +54,6 @@ set shiftwidth=4
 set shiftround
 set softtabstop=4
 set expandtab
-
-map Y y$
 
 set t_Co=256
 
